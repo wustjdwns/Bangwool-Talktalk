@@ -1,14 +1,14 @@
 #friend-display-link {
   text-align: center;
   display: block;
-  background-color: rgb(233, 225, 225);
+  background-color: burlywood;
   padding: 15px 0px;
   font-size: 16px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 #friend-display-link i {
-  color: rgb(167, 151, 167);
+  color: tomato;
   padding: 5px 15px;
 }
 
@@ -37,8 +37,8 @@
   }
 }
 
-#splash-screen {
-  background-color: var(--yellow);
+.splash-screen {
+  background-color: burlywood;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -49,4 +49,11 @@
   font-size: 64px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 2s;
+}
+.splash-screen img {
+  width: 500px;
+  height: 500px;
+  border-radius: 300px;
+  justify-content: center;
+  align-items: center;
 }
